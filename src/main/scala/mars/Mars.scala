@@ -1,6 +1,6 @@
 package mars
 
-import direction.North
+import direction.Direction.North
 
 object Mars extends App {
 
