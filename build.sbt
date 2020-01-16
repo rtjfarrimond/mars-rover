@@ -8,6 +8,7 @@ lazy val root = (project in file("."))
     name := "mars-rover",
     libraryDependencies ++= Seq(
       "org.scalactic" %% "scalactic" % "3.1.0",
+      "com.beachape" %% "enumeratum" % "1.5.15",
       "org.scalatest" %% "scalatest" % "3.1.0" % "test"
     )
   )
