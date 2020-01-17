@@ -3,6 +3,7 @@ package mars
 import direction.Direction.{East, North, South, West}
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should.Matchers
+import rover.MarsRover
 
 class MarsRoverSpec extends AnyFlatSpec with Matchers {
 
